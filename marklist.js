@@ -21,7 +21,7 @@ function addstudent(){
     }else{
         grade = 'D';
     }
-    if(!isNaN(name)||!sNaN(regnumb)||isNaN(marks1)||isNaN(marks2)||isNaN(marks3)||isNaN(marks4)){
+    if(!isNaN(name)||isNaN(regnumb)||isNaN(marks1)||isNaN(marks2)||isNaN(marks3)||isNaN(marks4)){
         alert("Please fill the details")
     }else{
         students.push({name,regnumb,marks1,marks2,marks3,marks4,totalmarks,avgmarks,grade})
